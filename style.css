@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+
+#beach-bg {
+    background-image: url(/pictures/dji.jpg);
+}
+.fullscreen  {
+    height: 100vh;
+}
+
+.parallax {
+ background-attachment: fixed; 
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.parallax > h2 {
+    background-color: #f8060641;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.content {
+    background-color: aqua;
+    padding: 50px;
+    text-align: center;
+}
+
+#club {
+    background-image: url(/pictures/istockphoto1.jpg);
+}
+
+#club2 {
+    background-image: url(/pictures/istockphoto2.jpg);
+}
+
+
+
+
+img{
+    width: 50%;
+}
+
+@media screen and (max-width: 321px) {
+    body {
+        border: 1px solid rgb(224, 143, 23); 
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3a3434;
+    color: #d30a0a;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f80606;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+@media screen and (max-width: 321px) {
+    
+    
+    section {
+        margin: 20px 0;
+    }
+}
