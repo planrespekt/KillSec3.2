@@ -3,7 +3,7 @@
 }
 
 #beach-bg {
-    background-image: url(/pictures/dji.jpg);
+    background-image: url(dji.jpg);
 }
 .fullscreen  {
     height: 100vh;
@@ -35,11 +35,11 @@
 }
 
 #club {
-    background-image: url(/pictures/istockphoto1.jpg);
+    background-image: url(istockphoto1.jpg);
 }
 
 #club2 {
-    background-image: url(/pictures/istockphoto2.jpg);
+    background-image: url(istockphoto2.jpg);
 }
 
 
